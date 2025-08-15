@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.body{
+    background-color:  black;
+    margin: 0% auto;
+    padding: 5px 15px;
+}
+.tete{
+   display: flex;
+    padding: 15px 10px;
+    text-align: center;
+}
+.barnavigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    cursor: pointer;
+    
+}
+.reseaux{
+   background:linear-gradient(to left,rgb(150, 130, 93),rgb(141, 90, 90),rgb(68, 68, 111),rgb(78, 126, 78));
+   border-radius: 50%;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.reseaux:hover{
+    transform: scale(1.2);
+    background:linear-gradient(to left, #567a68, #6b4c68,rgb(139, 116, 75),rgb(117, 60, 70));
+}
+.titre{
+    color: aliceblue;
+    font-size: 30px;
+    background:linear-gradient(to left, #377857, #a04597,orange,pink);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+   
+   
+}
+.h1{
+    position: relative;
+   
+}
+.h4
+{
+    position:absolute;
+    left:120px;
+    top:23px;
+    width: 60%;
+}
+.signature{
+    color: aliceblue;
+    font-size: 20px;
+    background:linear-gradient(to left, #c4bec2, #a04597,rgb(163, 82, 82));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.profile-picture{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 3px solid #a04597;
+    padding: 0px 0px;
+   
+    
+}
+.Pcard{
+   position:relative;
+}
+
+.PPcard{
+    position: absolute;
+   left:150px;
+   width: 60%;
+   cursor: default;
+}
+.corps{
+ color: aliceblue; 
+    font-size: 10px;  
+}
+
+.mskills{
+    font-size: xx-large;
+    cursor: default;
+}
+.skill  {
+    cursor: default;
+   font-size: 15px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(to left,black,rgb(50, 1, 50),black);
+    border-radius: 10px;
+    padding: 0%;
+    margin: 10px auto;
+    width: 90%;
+    gap: 100px;
+}
+.Bio{
+  
+  size: 5cm;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  cursor: default;
+  font-size: medium;
+}
+@media screen {
+    @media (max-width: 375px) {
+        .barnavigation{
+             display: flex;
+             justify-content: space-between;
+             gap: 100px;
+             cursor: pointer;
+    
+           
+        }
+        .titre{
+            color: aliceblue;
+              font-size: 30px;
+              background:linear-gradient(to left, #377857, #a04597,orange,pink);
+              background-clip: text;
+             -webkit-background-clip: text;
+             color: transparent;
+             
+        }
+        .h1{
+          
+            position: relative;
+        }
+        .h4{
+           position:absolute;
+         left:120px;
+         top:23px;
+         width: 60%; }                             
+        .signature{
+            color: aliceblue;
+         font-size: 20px;
+         background:linear-gradient(to left, #c4bec2, #a04597,rgb(163, 82, 82));
+         background-clip: text;
+         -webkit-background-clip: text;
+         color: transparent;
+        }
+        .corps{
+            font-size: 18px;
+             color: aliceblue; 
+        }
+
+        .profile-picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid #a04597;
+    padding: 0px 0px;
+   
+    
+}
+
+       
+    }
+}
+
